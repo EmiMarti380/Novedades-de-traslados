@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Novedades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="formulario">
+        <h2>NOVEDAD PROVEEDOR TRASLADO LOCAL</h2>
+        <label>
+            <input type="radio" name="proveedor" value="Falck"> Falck
+        </label>
+        <label>
+            <input type="radio" name="proveedor" value="San Gabriel"> San Gabriel
+        </label>
+        <label>
+            <input type="radio" name="proveedor" value="Viajes y rutas"> Viajes y rutas
+        </label>
+        <label>
+            <input type="radio" name="proveedor" value="Transportes 911"> Transportes 911
+        </label>
+
+        <h2>NOVEDAD PROVEEDOR TRASLADO LOCAL</h2>
+        <label>
+            <input type="radio" name="novedad_proveedor" value="Pendiente confirmación de servicio"> Pendiente confirmación de servicio
+        </label>
+        <label>
+            <input type="radio" name="novedad_proveedor" value="Asegurado en espera de prestación de servicio"> Asegurado en espera de prestación de servicio
+        </label>
+        <label>
+            <input type="radio" name="novedad_proveedor" value="Proveedor informa inconvenientes para la prestación de servicio"> Proveedor informa inconvenientes para la prestación de servicio
+        </label>
+        <label>
+            <input type="radio" name="novedad_proveedor" value="Asegurado solicita cambio de proveedor"> Asegurado solicita cambio de proveedor
+        </label>
+
+        <h2>GESTION INTERNA OPERACION</h2>
+        <label>
+            <input type="radio" name="gestion_interna" value="Ruta no parametrizada"> Ruta no parametrizada
+        </label>
+        <label>
+            <input type="radio" name="gestion_interna" value="Solicitud prorroga de hospedaje"> Solicitud prorroga de hospedaje
+        </label>
+
+        <h2>Solicitud</h2>
+        <label>
+            <input type="text" name="solicitud" required>
+        </label>
+
+        <h2>FECHA DE LA CITA</h2>
+        <label>
+            <input type="date" name="fecha_cita" id="fecha_cita" required>
+        </label>
+
+        <h2>NOVEDAD SOTAVENTO</h2>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Novedad de tiquetes en taquilla"> Novedad de tiquetes en taquilla
+        </label>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Pendiente confirmación de tiquetes"> Pendiente confirmación de tiquetes
+        </label>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Pendiente envío de recurso económico"> Pendiente envío de recurso económico
+        </label>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Reserva no confirmada en Hotel"> Reserva no confirmada en Hotel
+        </label>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Novedad por fechas de ingreso y salida de hotel"> Novedad por fechas de ingreso y salida de hotel
+        </label>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Transportadora no opera en la zona"> Transportadora no opera en la zona
+        </label>
+        <label>
+            <input type="radio" name="novedad_sotavento" value="Novedad de alimentacion"> Novedad de alimentacion
+        </label>
+
+        <h2>AGENTE QUIEN INFORMA NOVEDAD</h2>
+        <label>
+            <input type="text" name="agente" required>
+        </label>
+
+        <h2>Tipo de Novedad</h2>
+        <label>
+            <input type="radio" name="tipo_novedad" value="Novedad con cargue"> Novedad con cargue
+        </label>
+        <label>
+            <input type="radio" name="tipo_novedad" value="Novedad con cita"> Novedad con cita
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
